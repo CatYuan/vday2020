@@ -18,7 +18,7 @@ function toggle_smiley() {
   var button = document.getElementById('smiley');
   if (button.checked) {
     var response = document.getElementById('smiley_response');
-    response.style.display = "block";
+    response.style.display = "flex";
     list_of_ids = ['meh_response', 'frowny_response'];
     set_display_to_none(...list_of_ids);
   }
@@ -28,7 +28,7 @@ function toggle_frowny() {
   var button = document.getElementById('frowny');
   if (button.checked) {
     var response = document.getElementById('frowny_response');
-    response.style.display = "block";
+    response.style.display = "flex";
     list_of_ids = ['meh_response', 'smiley_response'];
     set_display_to_none(...list_of_ids);
   }
@@ -38,7 +38,7 @@ function toggle_meh() {
   var button = document.getElementById('meh');
   if (button.checked) {
     var response = document.getElementById('meh_response');
-    response.style.display = "block";
+    response.style.display = "flex";
     list_of_ids = ['smiley_response', 'frowny_response'];
     set_display_to_none(...list_of_ids);
   }

@@ -34,7 +34,7 @@ a {
 
 #second_screen {
   display: none;
-  margin-bottom: 13rem;
+  margin-bottom: 20rem;
 }
 
 h2 {
@@ -61,4 +61,15 @@ h2 {
 #smiley_response, #meh_response, #frowny_response {
   display: none;
   font-size: 2rem;
+  flex-direction: row;
+  justify-content: center;
+}
+
+p {
+  max-width: 45rem;
+}
+
+img {
+  height: 17rem;
+  width: auto;
 }

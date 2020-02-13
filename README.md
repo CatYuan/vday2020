@@ -8,3 +8,6 @@ I may refactor the website using the React framework in the future for ease of r
 
 ## A note on style
 In `script.js` coding style is sub-par. I have left magic numbers in the code, among other things that are bad coding style. For the moment, I will leave these in the code, because this is a prototype. If I choose to expand on the website, one of the first things that needs to be done is fix these style errors.
+
+## Possible Additions
+Add smooth scroll on radio button click.

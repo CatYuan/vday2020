@@ -1,5 +1,10 @@
 The purpose of this project log is to document the progression of the project as it is being worked on.
 
+## 13 Feb 2020
+**Acomplished**
+* Added flexbox to the responses
+* Fixed the margins for the responses and the image size
+
 ## 12 Feb 2020
 **Acomplished**:
 * added styling
