@@ -1,0 +1,64 @@
+body {
+  font-family: 'Gloria Hallelujah', "Courier New";
+  text-align: center;
+  color: #5c6274;
+  background-image: url('images/paper.jpg');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+em {
+  font-weight: bold;
+}
+
+#push_button {
+  font-family: "Candara";
+  font-size: 5rem;
+  text-transform: uppercase;
+  margin: 2em auto 3em;
+}
+
+a {
+  color: #5c6274;
+  text-decoration: none;
+  border-style: solid;
+  border-color: #5c6274;
+  padding: 1rem 2rem;
+}
+
+#second_screen {
+  display: none;
+  margin-bottom: 13rem;
+}
+
+h2 {
+  font-size: 3rem;
+  display: inherit;
+}
+
+.checkboxes {
+  display: inherit;
+  color: #5c6274;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+#smiley_label {
+  margin-right: 2em;
+}
+
+#frowny {
+  margin-left: 1em;
+}
+
+
+#smiley_response, #meh_response, #frowny_response {
+  display: none;
+  font-size: 2rem;
+}

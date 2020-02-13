@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap">
+
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Happy Valentine's Day</title>
+</head>
+<body>
+  <div id="title_screen">
+    <h1 id="instructions">Do <em>not</em> push the button.</h1>
+    <div id="push_button" onclick="toggle_second_screen();">
+      <a href="#second_screen">Push</a>
+    </div>
+  </div>
+  <div id="second_screen">
+    <h2>
+      I like you. Hope you've been well. <br>
+      How are you doing?
+    </h2>
+    <div class="checkboxes">
+      <div>
+        
+        <input type="radio" id="smiley" name="checkboxes" value="smiley" onclick="toggle_smiley();">
+        <label for="smiley" id="smiley_label">Good</label>
+
+        <input type="radio" id="frowny" name="checkboxes" value="frowny" onclick="toggle_frowny();">
+        <label for="frowny" id="frowny_label">Bad</label>
+      </div>
+      <div>
+        <input type="radio" id="meh" name="checkboxes" value="meh" onclick="toggle_meh();">
+        <label for="meh" id="meh_label">OK</label>
+      </div>
+    </div>
+    <div class="responses">
+      <div id="smiley_response">
+        <p> C'est bien! Glad you're doing well. Happy Valentine's Day!</p>
+        <img src="images/dog.jpg">
+      </div>
+      <div id="meh_response">
+        <p>C'est la vie. Maybe this pic will lift your spirits? Happy Valentine's Day!</p>
+        <img src="images/dwight.jpg">
+      </div>
+      <div id="frowny_response">
+        <p> C'est dommage. Hope tomorrow is better. Happy Valentine's Day!</p>
+        <img src="images/pretzel.jpg">
+      </div>
+    </div>
+  </div>
+</body>
