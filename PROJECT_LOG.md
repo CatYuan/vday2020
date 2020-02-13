@@ -4,6 +4,11 @@ The purpose of this project log is to document the progression of the project as
 **Acomplished**
 * Added flexbox to the responses
 * Fixed the margins for the responses and the image size
+* Styled the checkboxes/radio buttons
+  * instead of using radio buttons, they appear as normal buttons; however, only one can be selected at once
+
+**Things to do**
+* launch the website
 
 ## 12 Feb 2020
 **Acomplished**:
