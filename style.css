@@ -41,6 +41,14 @@ a:hover {
   margin-bottom: 20rem;
 }
 
+@media only screen 
+  and (max-device-width: 1100px)
+  and (orientation: portrait) {
+  #second_screen {
+    margin-bottom: 100rem;
+  }
+}
+
 h2 {
   font-size: 3rem;
   display: inherit;
@@ -69,6 +77,20 @@ h2 {
   justify-content: center;
 }
 
+@media only screen 
+  and (max-device-width: 1100px)
+  and (orientation: portrait) {
+  #smiley_response, #meh_response, #frowny_response {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .responses {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
 p {
   max-width: 45rem;
 }
@@ -76,6 +98,15 @@ p {
 img {
   height: 17rem;
   width: auto;
+}
+
+@media only screen 
+  and (max-device-width: 1100px)
+  and (orientation: portrait) {
+  img {
+    height: auto;
+    width: 55rem;
+  }
 }
 
 input[type="radio"] {

@@ -1,5 +1,11 @@
 The purpose of this project log is to document the progression of the project as it is being worked on.
 
+## 14 Feb 2020
+**Accomplished**
+* Website launched!
+* Site is mobile compatible
+  * Added media query to CSS
+
 ## 13 Feb 2020
 **Acomplished**
 * Added flexbox to the responses
