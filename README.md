@@ -11,3 +11,8 @@ In `script.js` coding style is sub-par. I have left magic numbers in the code, a
 
 ## Possible Additions
 Add smooth scroll on radio button click.
+
+## Examples
+![2020-02-14](https://user-images.githubusercontent.com/42955901/74489855-ef176380-4ec6-11ea-9d3b-b8897cc6f924.png)
+![2020-02-14 (1)](https://user-images.githubusercontent.com/42955901/74489860-f2aaea80-4ec6-11ea-9d16-2a60ee20c5f0.png)
+![2020-02-14 (2)](https://user-images.githubusercontent.com/42955901/74489863-f474ae00-4ec6-11ea-9c35-9be4f09a1727.png)
