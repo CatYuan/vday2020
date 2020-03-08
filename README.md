@@ -1,5 +1,6 @@
 # vday2020
 This is a website for Valentine's Day 2020.
+You can visit the site [here](https://catyuan.github.io/vday2020/).
 
 ## Coding Language and Libraries
 It is originally coded in pure HTML/CSS/JavaScript, as these are the web tools that I am most familiar with.
